@@ -1,7 +1,7 @@
 #!/bin/sh
 
-PROGRAM_NAME=bon.go
+PROGRAM_NAME=sum.go
 
-go build -buildmode=c-shared -o libbongo.so $PROGRAM_NAME
+go build -buildmode=c-shared -o libsum.so $PROGRAM_NAME
 
 go build $PROGRAM_NAME

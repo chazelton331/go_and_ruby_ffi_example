@@ -3,7 +3,7 @@ require 'ffi'
 module MyMath
   extend FFI::Library
 
-  ffi_lib './libbongo.so'
+  ffi_lib './libsum.so'
 
   attach_function :sum, [:int, :int], :int
 end
