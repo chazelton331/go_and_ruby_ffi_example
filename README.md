@@ -1,1 +1,3 @@
-# go_ruby_ffi_example
+### Go + Ruby via FFI
+##### (or Go by itself via CLI)
+
